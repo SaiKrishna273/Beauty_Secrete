@@ -66,9 +66,9 @@ export default function App() {
 
   // Logout
   function handleLogout() {
-    localStorage.removeItem("beautySecretLoggedIn");
-    window.location.href = "/login";
-  }
+  localStorage.removeItem("beautySecretLoggedIn");
+  window.location.href = "/Beauty_Secrete/login";
+}
 
   // Hide Navbar on Login and Signup pages
   const hideNavbar =
