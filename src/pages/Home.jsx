@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import ProductCard from "../components/ProductCard";
-import { products } from "../data/products";
+import { products } from "../data/Products";
 
 export default function Home({ onAddToCart }) {
   return (
